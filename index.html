@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="description" content="A free out-of-the-box emoji collection site that can be installed and used offline.">
+    <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com/" crossorigin>
+    <title>网站任意门 - 发现你最爱的网站</title>
+    <meta name="renderer" content="webkit" />
+    
+  <style type="text/css">
+    html,body{background:white;}.ui{position:absolute;}.ui.tl{left:32px;top:22px;}.ui.tr{right:32px;top:22px;}.ui.br{right:32px;bottom:22px;max-width:calc(45% - 32px);}#splashview{width:100%;height:100%;text-align:center;position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:space-around;}#splashview #splashview-tagline{max-width:calc(100% - 64px);padding:40px 40px;font-size:27px;flex-grow:2;position:relative;z-index:1;}@media screen and (max-height:700px),screen and (max-width:700px){#splashview #splashview-tagline{font-size:22px;padding:15px 32px;}}@media screen and (max-height:500px),screen and (max-width:500px){#splashview #splashview-tagline{font-size:18px;padding:15px 32px;}}@media screen and (max-height:350px),screen and (max-width:350px){#splashview #splashview-tagline{font-size:12px;}}@media screen and (max-height:500px) and (min-width:500px){#splashview #splashview-tagline{max-width:500px;}}#splashview #splashview-tagline #splashview-tagline-small{margin:0 auto;display:block;font-size:0.75em;max-width:700px;line-height:1.4em;}#splashview .splashscreen-button{padding:40px 20px;padding-bottom:110px;padding-top:10px;flex-grow:0;}@media screen and (max-height:500px),screen and (max-width:500px){#splashview .splashscreen-button{padding:0 20px 110px 20px;}}@media screen and (max-height:350px) and (min-width:350px){#splashview .splashscreen-button{padding-bottom:61px;}}#splashview #privacy-link{color:#dedede;text-align:right;font-family:'Karla',sans-serif;font-size:15px;}#splashview #privacy-link a{color:#dedede;text-decoration:none;}#splashview #privacy-link a:hover{color:#cccccc;}@media screen and (max-height:500px),screen and (max-width:500px){#splashview #privacy-link{font-size:13px;width:120px;}#splashview #privacy-link .privacy-link-group{clear:both;float:right;line-height:1.4;font-size:10px;}}button{background:none;border:0;}button:focus{outline:none;}.button{display:inline-block;box-sizing:border-box;height:50px;width:47px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding-top:0;padding-left:6px;padding-right:3px;padding-bottom:18px;background-repeat:no-repeat;background-size:94px 339px;background-position:0 0;font-family:'Roboto Mono',sans-serif;font-weight:normal;font-size:18px;text-align:center;color:white;cursor:pointer;overflow:hidden;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent;}.button.button-pink,.button.button-facebook,.button.button-twitter{background-image:url("/static/svg/buttons_small.svg");}.button.button-pink{background-position:0 0;}.button.button-pink:active{background-position:-53px 0;}.button.button-facebook{background-position:0 -168px;}.button.button-facebook:active{background-position:-53px -168px;}.button.button-twitter{background-position:0 -112px;}.button.button-twitter:active{background-position:-53px -112px;}.button.button-yellow{background-image:url("/static/svg/buttons_large.svg");}.button.button-yellow{background-position:0 -71px;}.button.button-yellow:active{background-position:-200px -71px;}.button:active{padding-left:3px;padding-right:9px;}.button:active span{position:relative;top:9px;}.button.button-large{height:58px;width:200px;background-size:400px 142px;padding-top:0;padding-left:9px;padding-right:8px;}.button.button-large:active{padding-left:3px;}.button.button-large:active span{position:relative;top:8px;}.button.button-large span{float:left;}.button.button-large span.center{float:none;}.popup-wrapper{position:fixed;width:100%;height:100%;background-color:rgba(0,0,0,0.9);color:white;display:flex;align-items:center;justify-content:center;text-align:center;top:0;z-index:1000;}.popup-wrapper .popup-box .popup-text{font-size:40px;margin-bottom:40px;text-align:center;padding:0 30px;}.popup-wrapper .popup-box .popup-buttons{padding:0 30px;}@font-face{font-family:Handwrite1;src:url("/static/fonts/handwritten01.otf") format("opentype");}@font-face{font-family:Handwrite2;src:url("/static/fonts/handwritten02.otf") format("opentype");}@font-face{font-family:Handwrite3;src:url("/static/fonts/handwritten03.otf") format("opentype");}@font-face{font-family:'mf-be-yourself';src:url("/static/fonts/mf_be_yourself-webfont.woff2") format("woff2"),url("/static/fonts/mf_be_yourself-webfont.woff") format("woff");}@font-face{font-family:'naguri';src:url("/static/fonts/naguri.ttf") format("truetype");}@font-face{font-family:'UhBeeDoolDool';src:url("UhBeeDoolDool.eot"),url("UhBeeDoolDool.woff") format("woff");}@font-face{font-family:'bryndan_write';src:url("/static/fonts/Bryndan_Write.ttf") format("truetype");}@font-face{font-family:'NotoKufiArabic';src:url("/static/fonts/NotoKufiArabic-Regular.ttf") format("truetype");}@font-face{font-family:'NotoSansCJKjp';src:url("/static/fonts/NotoSansCJKjp-Regular.subset.otf") format("opentype");}@font-face{font-family:'NotoSansCJKkr';src:url("/static/fonts/NotoSansCJKkr-Regular.subset.otf") format("opentype");}@font-face{font-family:'NotoSansCJKsc';src:url("/static/fonts/NotoSansCJKsc-Regular.subset.otf") format("opentype");}@font-face{font-family:'NotoSansCJKtc';src:url("/static/fonts/NotoSansCJKtc-Regular.subset.otf") format("opentype");}html[lang="zh-CN"] body{font-family:'NotoSansCJKsc';}body{margin:0;padding:0;overflow:hidden;font-family:'Roboto Mono',sans-serif;}#content-wrapper{position:absolute;min-width:300px;min-height:300px;width:100%;height:100%;overflow:hidden;}.hidden-on-startup{display:none;}
+   </style>
+    <link href='https://fonts.googleapis.com/css?family=Karla:700,400|Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/static/js/web.js"></script>
+
+    <link rel="canonical" href="https://gate.ofo.moe" />
+    <meta name="image" content="https://ofo.moe/images/social.png">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="ofo.moe, i@ofo.moe">
+  
+    <meta itemprop="name" content="ofo.moe – A free emoji collection site">
+    <meta itemprop="description" content="A free out-of-the-box emoji collection site that can be installed and used offline.">
+    <meta itemprop="image" content="https://ofo.moe/images/social.png">
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ofo.moe – A free emoji collection site">
+    <meta name="twitter:description" content="A free out-of-the-box emoji collection site that can be installed and used offline.">
+    <meta name="twitter:image" content="https://ofo.moe/images/social.png" />
+    <meta name="twitter:image:alt" content="The screenshot of ofo.moe" />
+  
+  
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ofo.moe">
+    <meta property="og:title" content="ofo.moe – A free emoji collection site">
+    <meta property="og:description" content="A free out-of-the-box emoji collection site that can be installed and used offline.">
+    <meta property="og:image" content="https://ofo.moe/images/social.png">
+    <meta property="og:image:alt" content="The screenshot of ofo.moe" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:site_name" content="ofo.moe – A free emoji collection site">
+    <meta property="og:locale" content="en_US">
+    <meta property="tag" content="Emoji" />
+  
+  
+    <meta name="weibo:webpage:create_at" content="2020-02-06 06:57:00" />
+    <meta name="weibo:webpage:update_at" content="2020-02-07 06:57:00" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ofo.moe/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ofo.moe/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ofo.moe/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="https://ofo.moe/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://ofo.moe/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="ofo Emoji">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="application-name" content="ofo Emoji">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="https://ofo.moe/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div id="content-wrapper">
+
+        <div id="splashview">
+        
+            <div id="splashview-tagline">
+                <br><br><br><br><br><br><br>
+                <h1>带我去一个奇怪的网站！</h1>
+
+                <span id="splashview-tagline-small">
+                    跳转到任意一个网站的概率是均等的
+                </span>
+
+            </div>
+
+            <div class="splashscreen-button">
+                <button id='button' class="button button-large button-yellow">
+                    <span class="center">Let's Go</span>
+                </button>
+                <script>
+                    var uselessWebButton = new uselessWebButton( document.getElementById( 'button' ) ); 
+                </script>
+                
+            </div>
+
+
+            <div class="ui br" id="privacy-link">
+                <!-- <div class="privacy-link-group">
+                    <a href='https://ofo.moe/'>隐私权</a>和<a
+                        href='https://ofo.moe/'>条款</a>
+                </div> -->
+            </div>
+            <div class="ui tl">
+                <button id="button-about" class="button button-pink"><span>?</span></button>
+            </div>
+            <div class="ui tr" id="splashscreen-share">
+                <button id="share_twitter" class="button button-twitter"></button>
+                <button id="share_facebook" class="button button-facebook"></button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="popup-wrapper hidden-on-startup" id="popup-message">
+        <div class="popup-box">
+            <div class="popup-text" id="popup-message-text"></div>
+            <div class="popup-buttons">
+                <button class="button button-large button-yellow" id="popup-message-button"><span
+                        class="center"></span></button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
