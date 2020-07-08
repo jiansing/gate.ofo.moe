@@ -7,6 +7,18 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
 		{
+			resolve: "gatsby-plugin-google-tagmanager",
+			options: {
+			  id: "GTM-NFCB2V4",
+		
+			  // Include GTM in development.
+			  //
+			  // Defaults to false meaning GTM will only be loaded in production.
+			  includeInDevelopment: false,
+
+			},
+		  },
+		{
 			resolve: `gatsby-plugin-canonical-urls`,
 			options: {
 			  siteUrl: `https://gate.ofo.moe`,
