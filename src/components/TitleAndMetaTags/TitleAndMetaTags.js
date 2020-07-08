@@ -5,9 +5,11 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 	return (
 		<Helmet>
 			<title>
-				{title} – {description}
+				{title}
 			</title>
 
+			<meta name="description" content={description} />
+            <meta name="image" content={`${url}/social/hero-1.jpg`} />
 			<meta property="og:url" content={`${url}/${pathname}`} />
 			<meta property="og:image" content={`${url}/social/hero-1.jpg`} />
 			<meta property="og:image" content={`${url}/social/hero-2.jpg`} />
