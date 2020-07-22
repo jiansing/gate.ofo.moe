@@ -62,7 +62,9 @@ export default class Layout extends React.Component {
 							</p>
 
 							<button οnclick="window.location.href='https://community.ofo.moe'">
-							   宝站社区传送门
+							<a href="https://community.ofo.moe">
+							    宝站社区传送门
+								</a>
 							</button>
 
 							<button onClick={() => this.setState({ showSadNotice: false })}>
