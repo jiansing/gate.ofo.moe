@@ -62,7 +62,7 @@ export default class Layout extends React.Component {
 							</p>
 
 							<button οnclick="window.location.href='https://community.ofo.moe'">
-							<a href="https://community.ofo.moe">
+							<a href="https://community.ofo.moe" target="_blank">
 							    宝站社区传送门
 								</a>
 							</button>
