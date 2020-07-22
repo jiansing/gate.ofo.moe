@@ -33,5 +33,5 @@ TitleAndMetaTags.defaultProps = {
 	url: 'https://gate.ofo.moe',
 	pathname: '',
 	title: '网站任意门 - 发现你最爱的网站',
-	description: '开启一次未知之旅，这里总有一个属于你的宝站！'
+	description: '开启一次未知之旅，这里总有一个属于你的宝站！或许是一场铺天盖地的热狗雨，或许是一节干货满满的线上公开课，或许是一个初音未来的音乐游戏，或许是一个高效办公的好工具。'
 };
