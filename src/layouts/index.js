@@ -48,11 +48,8 @@ export default class Layout extends React.Component {
 				{this.state.showSadNotice && (
 					<div className="sad-notice">
 						<div className="sad-notice-inner">
-							<h3>Hi~ 很高兴见到你呀！😃</h3>
+							<h3>今天你在这里找到了什么宝站？😃</h3>
 							<p>
-							今天你在这里找到了什么宝站？
-                            <br></br>
-
                             悄悄告诉你，<a href="https://community.ofo.moe">
 							    宝站社区
 								</a>里面可以找到更多好宝站呢。<br></br>
