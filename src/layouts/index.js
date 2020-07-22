@@ -48,10 +48,10 @@ export default class Layout extends React.Component {
 				{this.state.showSadNotice && (
 					<div className="sad-notice">
 						<div className="sad-notice-inner">
-							<h3>Hi~ 很高兴见到你呀！ :smiley:</h3>
+							<h3>Hi~ 很高兴见到你呀！😃</h3>
 							<p>
 							今天你在这里找到了什么宝站？
-                            或许是一场铺天盖地的热狗雨，或许是一节干货满满的线上公开课。<br></br>
+                            <br></br>
 
                             悄悄告诉你，<a href="https://community.ofo.moe">
 							    宝站社区
@@ -61,10 +61,8 @@ export default class Layout extends React.Component {
 
 							</p>
 
-							<button>
-							<a href="https://community.ofo.moe">
+							<button οnclick="window.location.href='https://community.ofo.moe'">
 							   宝站社区传送门
-								</a>
 							</button>
 
 							<button onClick={() => this.setState({ showSadNotice: false })}>
