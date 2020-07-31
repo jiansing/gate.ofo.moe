@@ -80,33 +80,30 @@ function IndexPage({ data, location }) {
 
 			<Section className="-blue">
 				<div className="grid">
-					<h1 className="col md-push-1 lg-push-2">宝站社区</h1>
+					<h1 className="col md-push-1 lg-push-2">给网站任意门充电</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h3 className="measure-wider">它的使命</h3>
+						<h3 className="measure-wider">⚡</h3>
 						<p className="measure-wider">
-						   挖掘躺在互联网角落里，被我们所忽视的宝藏网站。
+						   如果你喜欢网站任意门，你可以通过「爱发电」赞助。
 						</p>
 						<p className="measure-wider">
 {/* 							<Link to="/stockists" className="button">
 								来逛逛！
 							</Link> */}
-							<a href="https://community.ofo.moe" className="button" target="_blank">
-							来逛逛！
+							<a href="https://afdian.net/@jiansing" className="button" target="_blank">
+							充电 ⚡
 							</a>
 						</p>
 					</div>
 
-					<div className="col md-3 lg-2">
-		<h3>⚡ 给网站任意门充电</h3>
-		<p className="small">如果你喜欢网站任意门，你可以选择通过「爱发电」赞助</p>
-		<p style="margin-top: 30px;"><a href="https://afdian.net/@jiansing" className="button" target="_blank">
-							充电 ⚡
-							</a>
-							</p>
-	</div>
+					{/* <div className="col md-3 lg-2">
+		<h3>Find a shop</h3>
+		<p className="small">Buy our frozen bake-at-home packs from a few shops around London.</p>
+		<p style="margin-top: 30px;"><a href="/stockists" className="button">See stockists</a></p>
+	</div> */}
 				</div>
 
 				<div className="grid">
