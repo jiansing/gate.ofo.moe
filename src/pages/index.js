@@ -99,11 +99,14 @@ function IndexPage({ data, location }) {
 						</p>
 					</div>
 
-					{/* <div className="col md-3 lg-2">
-		<h3>Find a shop</h3>
-		<p className="small">Buy our frozen bake-at-home packs from a few shops around London.</p>
-		<p style="margin-top: 30px;"><a href="/stockists" className="button">See stockists</a></p>
-	</div> */}
+					<div className="col md-3 lg-2">
+		<h3>⚡ 给网站任意门充电</h3>
+		<p className="small">如果你喜欢网站任意门，你可以选择通过「爱发电」赞助</p>
+		<p style="margin-top: 30px;"><a href="https://afdian.net/@jiansing" className="button" target="_blank">
+							充电 ⚡
+							</a>
+							</p>
+	</div>
 				</div>
 
 				<div className="grid">
